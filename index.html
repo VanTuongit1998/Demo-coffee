@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>web-coffee</title>
+</head>
+<body>
+    <header class="header">
+        <a href="" class="logo"><img src="img/logo3.jpg" alt=""></a>
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#menu">MENU</a>
+            <a href="#products">PRODUCTS</a>
+            <a href="#review">REVIEW</a>
+            <a href="#contact">CONTACT</a>
+            <a href="#blogs">BLOGS</a>
+        </nav>
+
+        <div class="icons">
+             <div class="fa fa-search" id="search-btn"></div>
+             <div class="fa fa-shopping-cart" id="cart-btn"></div>
+             <div class="fa fa-bars" id="menu-btn"></div>
+             <div class="fas fa-user" id="login-btn"></div>
+             <div class="fa fa-book" id="book-btn"></div>
+        </div>
+
+        <div class="search-form">
+            <input type="search" name="" id="search-box" placeholder="search here...">
+            <label for="search-box" class="fas fa-search"></label>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/hatcafe.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 01</h3>
+                    <div class="price">$15.4/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/hatcafe.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 02</h3>
+                    <div class="price">$15.4/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/hatcafe.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 03</h3>
+                    <div class="price">$15.4/-</div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <span class="fas fa-times"></span>
+                <img src="img/hatcafe.jpg" alt="">
+                <div class="content">
+                    <h3>cart item 04</h3>
+                    <div class="price">$15.4/-</div>
+                </div>
+            </div>
+            <a href="" class="btn">checkout now</a>  
+    </header>
+<!-- --------------------home----------- -->
+ <section class="home" id="home">
+    <div class="content">
+        <h3>Fresh coofee in the morning</h3>
+        <p>Coffee is the best thing to douse the sunrise</p>
+        <a href="" class="btn">get yours now</a>
+    </div>   
+ </section>
+ <!-- ------------------------------------ -->
+<!-- ------------------------------------- -->
+
+<section>
+    <div id="id01" class="modal">   
+      <form class="modal-content animate">
+        <div class="imgcontainer">
+          <span class="close" title="Close Modal">&times;</span>
+          <img src="img/logo3.jpg" alt="Avatar" class="avatar">
+        </div>
+    
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="username" id="user" required>
+    
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="password" id="pass" required>
+            
+          <button type="submit" id="login">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+      </form>
+    </div>
+</section>
+<!-- ----------------------------------- -->
+ <section class="about" id="about">
+    <h1 class="heading"><span>about </span>us</h1>
+    <div class="row">
+        <div class="image">
+            <img src="img/about.png" alt="">
+        </div>
+        <div class="content">
+            <h3>what makes our coffee special</h3>
+            <p>Cà phê là một trong những thức uống được yêu thích nhất trên thế giới. Người ta thường đánh giá cà phê dựa trên hương vị và hương thơm của nó, tuy nhiên, không ít người biết rõ những loại hạt cà phê khác nhau cũng đóng vai trò quan trọng trong việc tạo ra một tách cà phê ngon.</p>
+            <p>Hạt cà phê là sản phẩm thu hoạch từ cây cà phê, đóng vai trò quan trọng trong việc tạo ra một tách cà phê ngon. Hiện nay, có hai loại hạt cà phê được sử dụng phổ biến trên thị trường: Arabica và Robusta.</p>
+            <p>Hạt cà phê Arabica thường có hương vị thanh nhẹ, mặc dù không quá đậm đà như Robusta. Hạt này có hương thơm phức tạp, với nhiều hương vị khác nhau, bao gồm cả hương trái cây và hoa. Arabica là loại hạt cà phê được sử dụng nhiều nhất trong các sản phẩm cà phê cao cấp.</p>
+            <p>Hạt cà phê Robusta có hương vị đậm đà hơn, cũng như chứa nhiều caffeine hơn so với Arabica. Hạt này thường được sử dụng để tạo ra các loại cà phê espresso, cà phê sữa và cà phê phin.</p>
+            <a href="#" class="btn">learn more</a>
+        </div>
+    </div>
+ </section>
+<!-- ---------------------------------------- -->
+<section class="menu" id="menu">
+    <h1 class="heading">our <span>menu</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="img/menu1.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="img/menu2.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="img/menu3.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="img/menu4.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+            <div class="box">
+            <img src="img/menu5.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+            <img src="img/menu6.jpg" alt="">
+            <h3>tasty and healty</h3>
+            <div class="price">$15.99 <span>20.99</span></div>
+            <a href="#" class="btn">add to cart</a>
+        </div>
+    </div>
+</section>
+<!-- ----------------------------------------- -->
+ <section class="product" id="products">
+    <h1 class="heading">our <span>PRODUCTS</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="icons">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/pro2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="icons">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/pro3.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="icons">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/pro5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="icons">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/pro8.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="icons">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/pro6.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+        
+        <div class="box">
+            <div class="icons">
+                <a href="" class="fas fa-shopping-cart"></a>
+                <a href="" class="fas fa-heart"></a>
+                <a href="" class="fas fa-eye"></a>
+            </div>
+            <div class="image">
+                <img src="img/pro7.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>fresh coffee</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="price">$15.99 <span>$20.99</span></div>
+            </div>
+        </div>
+    </div>
+ </section>
+<!-- ------------------------------------- -->
+<section class="review" id="review">
+    <h1 class="heading"> <span>CUTOMER'S</span> review</h1>
+    <div class="box-container">
+        <div class="box">
+            <p>Colombia Hạt cà phê Colombia có hương vị thanh nhẹ và độ axit cao, với hương thơm của cam và quả lê. Loại hạt này thường được sử dụng để tạo ra các sản phẩm cà phê cao cấp như cà phê đen.</p>
+            <img src="https://gamek.mediacdn.vn/133514250583805952/2022/8/11/photo-1-1660207484092633922082.jpeg" alt="" class="user">
+            <h3>John</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Ethiopia Hạt cà phê Ethiopia có hương vị đậm đà và mạnh mẽ, với hương thơm của quả mâm xôi và dứa. Loại hạt này thường được sử dụng để tạo ra các sản phẩm cà phê espresso.</p>
+            <img src="https://danviet.mediacdn.vn/296231569849192448/2022/12/27/chris-hemsworth-1672156099950421692875.jpg" alt="" class="user">
+            <h3>John</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+
+        <div class="box">
+            <p>Cà phê là một trong những thức uống được yêu thích nhất trên thế giới. Người ta thường đánh giá cà phê dựa trên hương vị và hương thơm của nó, tuy nhiên, không ít người biết rõ những loại hạt cà phê khác nhau cũng đóng vai trò quan trọng trong việc tạo ra một tách cà phê ngon.</p>
+            <img src="https://danviet.mediacdn.vn/296231569849192448/2022/12/27/hugh-jackman-1672156099950111697985.jpg" alt="" class="user">
+            <h3>John</h3>
+            <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ------------------------------------------- -->
+ <section class="contact" id="contact">
+    <h1 class="heading"> <span>contact </span>us</h1>
+    <div class="row">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501726.5407345099!2d106.36556175435443!3d10.754618130150035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529292e8d3dd1%3A0xf15f5aad773c112b!2zVGjDoG5oIHBo4buRIEjhu5MgQ2jDrSBNaW5oLCBI4buTIENow60gTWluaCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1723452461781!5m2!1svi!2s" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="numer" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+    </div>
+ </section>
+<!-- --------------------------------------------- -->
+ <section class="blogs" id="blogs">
+    <h1 class="heading">our <span>blogs</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <div class="image">
+                <img src="img/blog1.png" alt="">
+            </div>
+            <div class="content">
+                <a href="" class="title">Coffee Arabica</a>
+                <span>by admin / 2024</span>
+                <p> Bên ly cà phê đắng <br>
+                    Ngồi suy ngẫm sự đời <br>
+                    Biển bao nhiêu vị mặn <br>
+                    Chảy tràn lên mắt môi </p>
+                <a href="" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/blog3.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="" class="title">Coffee Robusta</a>
+                <span>by admin / 2024</span>
+                <p> Uống cafe một mình thật sầu não <br>
+                    Ước cùng ai ngồi thảo luận yêu thương <br>
+                    Cho vơi đi cô lẽ trong đêm trường <br>
+                    Được bầu bạn tỏ tường trong cuộc sống</p>
+                <a href="" class="btn">read more</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="img/blog2.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="" class="title">Coffee Cherry</a>
+                <span>by admin / 2024</span>
+                <p> Những giọt cà phê tan mau <br>
+                    Rơi xuống đáy ly một màu nâu quạnh quẽ <br>
+                    Nhẹ nhàng như từng hơi thở <br>
+                    Gió trở mình buôn buốt trong đêm </p>
+                <a href="" class="btn">read more</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- ----------------------------------------------- -->
+ <section class="footer">
+    <div class="share">
+        <a href="" class="fab fa-facebook-f"></a>
+        <a href="" class="fab fa-twitter"></a>
+        <a href="" class="fab fa-instagram"></a>
+        <a href="" class="fab fa-linkedin"></a>
+        <a href="" class="fab fa-pinterest"></a>
+        <a href="" class="fab fa-youtube"></a>
+    </div>
+    <div class="links">
+        <a href="#home">home</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#products">products</a>
+        <a href="#contact">contact</a>
+        <a href="#blogs">blogs</a>
+    </div>
+    <div class="credit">
+        <span>created by</span>
+        <i class="fa fa-bolt"></i> 
+        <span>TRẦN VĂN TƯỞNG</span>
+        <i class="fa fa-bolt"></i> 
+    </div>
+ </section>
+
+
+
+
+
+  
+</body>
+<script src="main.js"></script>   
+</html>
